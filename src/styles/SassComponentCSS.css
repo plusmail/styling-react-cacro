@@ -1,0 +1,31 @@
+.SassComponent {
+  display: flex;
+
+  .box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+    &.red {
+      background: red;
+    }
+    &.orange {
+      background: orange;
+    }
+    &.yellow {
+      background: yellow;
+    }
+    &.green {
+      background: green;
+    }
+    &.blue {
+      background: blue;
+    }
+    &.indigo {
+      background: indigo;
+    }
+    &.violet {
+      background: violet;
+    }
+  }
+}
